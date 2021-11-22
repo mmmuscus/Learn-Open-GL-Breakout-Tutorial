@@ -45,6 +45,12 @@
     <ClCompile Include="spriteRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
@@ -62,9 +68,27 @@
     <ClInclude Include="spriteRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\awesomeface.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\background.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\block.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\block_solid.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\paddle.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>
