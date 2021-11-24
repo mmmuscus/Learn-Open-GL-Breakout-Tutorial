@@ -43,11 +43,11 @@ void Game::Init()
     myShader = ResourceManager::GetShader("sprite");
     Renderer = new SpriteRenderer(myShader);
     // load textures
-    ResourceManager::LoadTexture("textures/background.jpg", false, "background");
-    ResourceManager::LoadTexture("textures/awesomeface.png", true, "face");
-    ResourceManager::LoadTexture("textures/block.png", false, "block");
-    ResourceManager::LoadTexture("textures/block_solid.png", false, "block_solid");
-    ResourceManager::LoadTexture("textures/paddle.png", true, "paddle");
+    ResourceManager::LoadTexture("resources/background.jpg", false, "background");
+    ResourceManager::LoadTexture("resources/awesomeface.png", true, "face");
+    ResourceManager::LoadTexture("resources/block.png", false, "block");
+    ResourceManager::LoadTexture("resources/block_solid.png", false, "block_solid");
+    ResourceManager::LoadTexture("resources/paddle.png", true, "paddle");
     // load levels
     GameLevel one; one.Load("levels/one.lvl", this->Width, this->Height / 2);
     GameLevel two; two.Load("levels/two.lvl", this->Width, this->Height / 2);
