@@ -15,7 +15,6 @@
 #include "gameObject.h"
 #include "texture.h"
 
-
 // BallObject holds the state of the Ball object inheriting
 // relevant state data from GameObject. Contains some extra
 // functionality specific to Breakout's ball object that
@@ -26,6 +25,7 @@ public:
     // ball state	
     float   Radius;
     bool    Stuck;
+    bool    Sticky, PassThrough;
     // constructor(s)
     BallObject();
     BallObject(glm::vec2 pos, float radius, glm::vec2 velocity, Texture2D sprite);

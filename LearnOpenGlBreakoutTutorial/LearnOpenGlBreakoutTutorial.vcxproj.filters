@@ -92,6 +92,9 @@
     <ClInclude Include="postProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="powerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\awesomeface.png">
@@ -110,6 +113,24 @@
       <Filter>Resource Files\Textures</Filter>
     </Image>
     <Image Include="resources\particle.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\powerup_chaos.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\powerup_confuse.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\powerup_increase.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\powerup_passthrough.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\powerup_speed.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\powerup_sticky.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>

@@ -166,6 +166,7 @@
     <ClInclude Include="gameObject.h" />
     <ClInclude Include="particleGenerator.h" />
     <ClInclude Include="postProcessor.h" />
+    <ClInclude Include="powerUp.h" />
     <ClInclude Include="resourceManager.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="spriteRenderer.h" />
@@ -178,6 +179,12 @@
     <Image Include="resources\block_solid.png" />
     <Image Include="resources\paddle.png" />
     <Image Include="resources\particle.png" />
+    <Image Include="resources\powerup_chaos.png" />
+    <Image Include="resources\powerup_confuse.png" />
+    <Image Include="resources\powerup_increase.png" />
+    <Image Include="resources\powerup_passthrough.png" />
+    <Image Include="resources\powerup_speed.png" />
+    <Image Include="resources\powerup_sticky.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="particle.frag" />
