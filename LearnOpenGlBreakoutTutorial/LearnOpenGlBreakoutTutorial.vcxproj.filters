@@ -19,6 +19,9 @@
     <Filter Include="Resource Files\shaders">
       <UniqueIdentifier>{6e075a1f-92e4-4a51-b24c-1d2642497ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\sounds">
+      <UniqueIdentifier>{71784f88-2e33-4f0d-8979-fae056c3fc16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -153,5 +156,22 @@
     <None Include="postProcess.frag">
       <Filter>Resource Files\shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\bleep.mp3">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="sounds\bleep.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="sounds\breakout.mp3">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="sounds\powerup.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="sounds\solid.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
   </ItemGroup>
 </Project>
