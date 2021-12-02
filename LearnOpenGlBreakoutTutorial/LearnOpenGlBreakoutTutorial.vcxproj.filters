@@ -63,6 +63,9 @@
     <ClCompile Include="postProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="textRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
@@ -96,6 +99,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="powerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -154,6 +160,12 @@
       <Filter>Resource Files\shaders</Filter>
     </None>
     <None Include="postProcess.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="text.vert">
       <Filter>Resource Files\shaders</Filter>
     </None>
   </ItemGroup>
